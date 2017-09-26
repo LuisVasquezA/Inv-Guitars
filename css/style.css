@@ -1,0 +1,252 @@
+
+/**{
+	width: 	15px;
+	height: 	25px;
+	padding: 10px;
+	border: 2px solid red;
+	margin:10px;
+}*/
+.background{
+
+	background-image: url('../image/background.png');
+	background-size: cover;
+}
+
+.titulo{
+	font-size: 70px;
+	font-color: #0;
+			margin-bottom: 15PX;
+margin-top: 	70;
+margin-bottom: 	0;
+}
+.titulo span{
+	text-decoration: underline;
+}
+
+.tittle-a{
+	font-size: 24px;
+	padding:8px;
+	margin-top: 	0;
+	
+}
+
+.tittle-b{
+	font-size: 50px;
+	font-color: white;
+	margin-bottom: 	20px;
+}
+
+.guitarras h2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+}
+#guitarras{
+	color: #1F313C;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 60px !important
+
+			
+}
+.guitarra1{
+	margin-bottom: 40px !important;
+}
+.guitarra.b{
+	height: 190px;
+
+}
+
+.portada{
+	color: white;
+	padding:20px;
+	height: 500px;
+
+	
+
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+.portada button{
+	padding-left: 	10px;
+	margin-bottom: 	70px;
+
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	margin-left: 140px;
+
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 0;	
+}
+.menu li{
+	display: 	inline-block;	
+	margin-left: 	30px;		
+}
+
+
+
+input, textarea {
+	outline: 0;
+}
+input:focus {
+	background-color: lightgray;
+	border-color: #fd324e;
+}
+textarea:focus{
+	background-color: lightgray;
+	border-color: #fd324e;	
+}
+body{
+
+font-family: 'Allerta', sans-serif;
+margin: 0px;
+}
+
+.button{
+
+border-radius: 12px;
+color: white;
+border: none;
+padding: 7px 12px;
+font-size: 18px;
+
+cursor: pointer;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2825b+0,e55b2b+50,f07146+100;Red+3D+%232 */
+background: #f2825b; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2825b 0%, #e55b2b 50%, #f07146 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f2825b 0%,#e55b2b 50%,#f07146 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f2825b 0%,#e55b2b 50%,#f07146 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2825b', endColorstr='#f07146',GradientType=0 ); /* IE6-9 */
+
+}
+
+footer .button{
+	margin-top: 10px;
+}
+.contenedor{
+	width: 	800px;
+	margin: auto;
+}
+
+.derecha{
+	float: 	right;	
+	position: relative;
+	right: 150px;
+	bottom:  130px;
+}
+.izquierda{
+	float: 	left;
+	position: relative;
+
+}
+
+.title-b{
+	font-size: 36px;
+}
+
+.guitarra1{
+	border:1px #1F313C solid;
+	margin: 5px;
+	padding:10px;
+	border-radius: 8px;
+
+}
+
+.guitarra2{
+	border:1px #1F313C solid;
+	border-radius: 8px;
+	bottom: 90px;
+
+	
+}
+.contenedor-guitarra{
+	margin-left: 45px;
+}
+.header{
+	position: relative;
+}
+
+.footer{
+	background-color: #273b47;
+		padding: 50px 10px;
+
+}
+.contacto img{
+	display: block;
+}
+.contacto strong {
+	display: block;
+}
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 10px 10px 10px 0;
+}
+.footer .contenedor {
+display: flex;
+justify-content: space-between;
+}
+
+.contacto {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+.col1 {
+	margin-right: 15px;
+}
+.col2{
+	align-items: flex-start;
+}
+.intereses label{
+	font-size: 14px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom:10px;}
+	.sexo {margin-top: 10px;}
+
+table {
+	width: 100%;
+
+}
+th	{
+	background: #273b47;
+	color: white;
+
+
+}
+th{
+	padding: 10px 20px;
+	text-align: left;
+} 
+td{
+	padding: 20px;
+}
+table, td, th {
+	border: 1px solid #273b47;
+	border-collapse: collapse;
+}
+
+.table{
+	margin: 50px 0;
+}
